@@ -6,26 +6,14 @@
 --text-paragraph-bg: #ff0070;
 --paragraph-decor-color: #000028;
 --contet-paragraph-color: #F1B2CE;
---main-font-size: 18px;
---bold-font-weight: 700;
---font-family: 'IBM Plex Mono', serif;
 --article-link-color: rgba(241, 178, 206, 1); 
---decor: "";
 --header-bg-color: url(../images/cover-image-dark.png);
 --alpha: 0.4;
 }
 
+@media (prefers-color-scheme: dark ) {
 
-@media (prefers-color-scheme: dark) {
-    
-.theme-dark .decorative-element {
-display: inline;
-}
-.theme-dark .decorative-element::before {
-display: inline;
-}
-.rec {
+.theme-light .rec {
 display: none;
 }
-
 }

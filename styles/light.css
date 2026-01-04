@@ -4,28 +4,21 @@
 --text-shadow-color:#FF8DCB; 
 --header-color: #FFC2E6;
 --text-paragraph-bg:#FF8DCB;
---decor-circle: url('');
 --paragraph-decor-color: #353430;
 --contet-paragraph-color:#353430;
---font-family: 'IBM Plex Mono', serif;
---main-font-size: 18px;
---bold-font-weight: 700;
 --header-bg-color: url(../images/cover-image-light.png);
 --alpha: 0.4;
 }
 
 @media (prefers-color-scheme: light) {
+
 :root.theme-light {
 --accent-color: #353430;
 --bg-color: #FFF1F7;
 --text-shadow-color:#FF8DCB; 
 --header-color: #FFC2E6;
 --text-paragraph-bg:#FF8DCB;
---decor-circle: url('');
 --paragraph-decor-color: #353430;
---font-family: 'IBM Plex Mono', serif;
---main-font-size: 18px;
---bold-font-weight: 700;
 --header-bg-color: url(../images/cover-image-light.png);
 --contet-paragraph-color:#353430;
 --alpha: 0.4;
@@ -34,6 +27,5 @@
 .theme-light .rec {
 display: none;
 }
-
 }
 
