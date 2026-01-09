@@ -1,4 +1,5 @@
 :root {
+/*Цвета*/
 --accent-color: #ff0070;
 --bg-color: #000028;
 --text-shadow-color: #FF0070;
@@ -6,9 +7,12 @@
 --text-paragraph-bg: #ff0070;
 --paragraph-decor-color: #000028;
 --contet-paragraph-color: #F1B2CE;
+--article-link-color: rgba(241, 178, 206, 1); 
+--header-bg-color: url(../images/cover-image-dark.png);
+
+
+/*Шрифты*/
 --main-font-size: 18px;
 --bold-font-weight: 700;
 --font-family: 'IBM Plex Mono', monospace;
---article-link-color: rgba(241, 178, 206, 1); 
---header-bg-color: url(../images/cover-image-dark.png);
 }

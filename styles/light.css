@@ -1,4 +1,4 @@
-:root.theme-light {
+:root {
 --accent-color: #353430;
 --bg-color: #FFF1F7;
 --text-shadow-color:#FF8DCB; 
@@ -12,7 +12,7 @@
 
 @media (prefers-color-scheme: light) {
 
-:root.theme-light {
+:root {
 --accent-color: #353430;
 --bg-color: #FFF1F7;
 --text-shadow-color:#FF8DCB; 
@@ -24,7 +24,7 @@
 --alpha: 0.4;
 }
 
-.theme-light .rec {
+.rec {
 display: none;
 }
 }
