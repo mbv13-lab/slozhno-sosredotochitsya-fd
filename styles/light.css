@@ -8,28 +8,10 @@
 --contet-paragraph-color:#353430;
 --header-bg-color: url(../images/cover-image-light.png);
 --button-color: #353430;
+--article-link-color:#FF8DCB;
+--link-color: #353430;
 }
-.rec {
+
+.theme-light .rec {
 display: none;
-}
-
-
-@media (prefers-color-scheme: light) {
-
-:root {
---accent-color: #ff0070;
---bg-color: #000028;
---text-shadow-color: #FF0070;
---header-color:#DB00FF;
---text-paragraph-bg: #ff0070;
---paragraph-decor-color: #000028;
---contet-paragraph-color: #F1B2CE;
---article-link-color: rgba(241, 178, 206, 1); 
---header-bg-color: url(../images/cover-image-dark.png);
---button-color: #ff0070;
-}
-
-.theme-auto .rec {
-display: block;
 } 
-}
