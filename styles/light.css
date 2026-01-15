@@ -15,3 +15,24 @@
 .theme-light .rec {
 display: none;
 } 
+
+@media (prefers-color-scheme: light) {
+
+:root {
+--accent-color: #353430;
+--bg-color: #FFF1F7;
+--text-shadow-color:#FF8DCB; 
+--header-color: #FFC2E6;
+--text-paragraph-bg:#FF8DCB;
+--paragraph-decor-color: #353430;
+--contet-paragraph-color:#353430;
+--header-bg-color: url(../images/cover-image-light.png);
+--button-color: #353430;
+--article-link-color:#FF8DCB;
+--link-color: #353430;
+}
+
+.rec {
+display: none;
+}
+}

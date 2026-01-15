@@ -12,6 +12,11 @@
 --link-color: #F1B2CE;
 } 
 
+.theme-dark .rec {
+display: block;
+}
+
+
 @media (prefers-color-scheme: dark) {
 :root {
 --accent-color: #ff0070;
@@ -26,8 +31,7 @@
 --button-color: #ff0070;
 --link-color: #F1B2CE;
 }
-
 .rec {
 display: block;
-} 
+}
 }
